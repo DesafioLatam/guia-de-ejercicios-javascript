@@ -6,9 +6,9 @@
 
 ## Operaciones básicas, Prompt y Alert
 
-- Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra una alerta con los resultados.
+- Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra una alerta con el resultado de la suma.
 
-- Crear un programa donde el usuario ingrese en un prompt la temeperatura en celcius y el programa muestre en una alerta la temperatura en fahrenheit.
+- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit.
 
 - Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10  igual 0.5
 
@@ -22,15 +22,15 @@
 
 - Crear un programa  que le pida al usuario dos números en un Prompt y luego muestre en un alerta el número mayor.
 
-- Crear un programa que le pida al usuario primero un  números al usuario a través de un prompt y luego un segundo número para luego mostar en un alerta el número mayor, esta vez realizar el ejercicio ocupando un if ternario.
+- Crear un programa que le pida al usuario primero un  números al usuario a través de un prompt y luego un segundo número para luego mostrar en un alerta el número mayor, esta vez realizar el ejercicio ocupando un if ternario.
 
 - Crear un programa que determine si un string introducido por un usuario empieza con un número o con una letra.
 
-- Crear un programa donde se introduzcan los tres ángulos internos de un triángulo y se determine si el tríangulo es válido o no.
+- Crear un programa donde se introduzcan los tres ángulos internos de un triángulo y se determine si el triángulo es válido o no.
 
 - Determinar si una palabra empieza con mayúscula o no.
 
-- Determinar si un año dado es biciesto.
+- Determinar si un año dado es bisiesto.
 
 - Escribir un programa JavaScript en el que el programa escoge al azar un entero entre 1 y 10, el usuario , luego a el usuario se le pedirá que introduzca un número en un popup para intentar adivinarlo. Si la entrada del usuario coincide con el número de conjetura, el programa mostrará un mensaje de "buen trabajo" de lo contrario mostrará un mensaje de "No corresponde "
 
@@ -46,7 +46,7 @@
 
 - Escribir utilizando console.log la tabla del 9 hasta 9x10.
 
-- Pedir al usuario que ingrese un número en un prompt, hacer la suma de todos los dígitos, validar que el número ingresado no contenga letas.
+- Pedir al usuario que ingrese un número en un prompt, hacer la suma de todos los dígitos, validar que el número ingresado no contenga letras.
 
 - Realizar la suma de todos los números pares entre N y M donde N y M los ingresa un usuario.
 
@@ -182,7 +182,7 @@ Diamante:
 
 - Crear un array vacío, luego generar 20 números al azar y guardarlos en un array.
 
-- Crear un array vacío, luego generar N números al azar y guardarlos en un array, N es introducido por el usuario a través de un propmpt.
+- Crear un array vacío, luego generar N números al azar y guardarlos en un array, N es introducido por el usuario a través de un prompt.
 
 - Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "café", "rosa"] determinar si un color introducido por el usuario a través de un prompt se encuentra dentro del array o no.
 
@@ -202,16 +202,60 @@ Diamante:
 
 - El usuario ingresa dos conjuntos de números separados por coma, si ambos conjuntos tienen la misma cantidad de elementos mostrar un arreglo que contenga la suma de cada elemento. (Ejemplo: [1,2,3] + [2,3,4] = [3,5,7])
 
-### Otros
-- El usuario ingresa un conjunto de números separados por coma ahora se debe generar un array pero con el orden invertido.
+
+## Filtrando datos en arreglo
+
+- Crear una función que reciba un arreglo con números y devuelva un nuevo arreglo con solo los números pares, hint: utilizar [reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
+- Crear una función que reciba un arreglo con palabras, crear un nuevo arreglo que contenga solo las palabras que empiezan con una vocal.
+
+## Ordenamiento
+- Crear un método que permite intercambiar las posiciones de dos elementos de un arreglo en base a sus índices ej:
+
+	~~~js
+	arr = [1,2,3]
+	swap(arr, 0, 1)
+	console.log(arr) // [2,1,3]
+	~~~
+
+- Realizar el mismo ejercicio anterior pero que en esta ocasión devuelva un arreglo nuevo con los datos cambiados.
+
+	~~~js
+	arr = [1,2,3]
+	new_arr = swap(arr, 0, 1)
+	console.log(arr) // [1,2,3]
+	console.log(new_arr) // [2,1,3]
+	~~~
+
+	
+- Crear una función que reciba un arreglo y que cree uno nuevo con todos los elementos ordenados de menor a mayor, (sin ocupar el método .sort)
+
+- Crear una función que reciba un arreglo y que cree uno nuevo con todos los elementos ordenados de mayor a menor.
+
+## Arreglos de arreglos 
+
+- Crear una función que permite aplanar un arreglo dado, Ejemplo: 
+
+	~~~javascript
+	var arr = [[1,2,3],[4,5,6],[7,8,9]];
+	console.log(aplanar(arr)); // [1,2,3,4,5,6,7,8,9]
+	~~~
+
+- Crear una función que divida un arreglo en dos partes con la misma cantidad de elementos (o una diferencía de máximo un elemento) y devuelva un arreglo que contenga al grupo1 y al grupo2
+
+	~~~javascript
+	var arr = [1,2,3,4,5,6,7,8];
+	console.log(split(arr)); // [[1,2,3,4], [5,6,7,8]]
+	~~~
+	
 
 ## Matrices
 
 - Recorrer un arreglo de arreglos para mostrarlo como una matriz, ejemplo [[1,1],[2,2]] se mostraría de la siguiente forma:
 
-| 1  | 1  |
-|----|----|
-| 2  |  2 |
+|     1  |     1  |
+|--------|--------|
+| **2**  |  **2** |
 
 
 - Sumar [[1,1],[2,2]] con [[3,1],[3,2]].
@@ -272,6 +316,75 @@ Diamante:
 
 - Utilizando la instrucción setInterval mostrar la hora exacta y actualizarla cada segundo.
 
-## JQuery
+## Jquery selectores
 
+- Dado el siguiente formulario
+
+  ~~~html
+	<form>
+	<label name="first_name_label">First name:</label>
+	<br>
+	<input type="text" name="firstname">
+	<br>
+	Last name:
+	<br>
+	<input type="text" name="lastname">
+	<br>
+	<input type="radio" name="sex" value="male" checked>Male
+	<br>
+	<input type="radio" name="sex" value="female">Female
+	<br>
+	Favorite day of the week:
+	<br>
+	    <select name="fav_day">
+	        <option value="Friday">Friday</option>
+	        <option value="Saturday">Saturday</option>
+	        <option value="Monday">Monday</option>
+	    </select>
+	<br>
+	</form>
+	
+	<br><br>
+	    
+	<form>
+	What's your major:
+	<br>
+	<input type="text" name="major">
+	<br>
+	What's your job title:
+	<br>
+	<input type="text" name="job_title">
+	<br>
+	
+	Do you like challenges:
+	<br>
+	<input type="radio" name="challenge" value="yes" checked>Yes
+	<br>
+	<input type="radio" name="challenge" value="no">No
+	</form>
+	~~~
+
+	Se pide:
+	- Pon tu nombre al atributo value del campo first name
+	- Pon el valor a la pregunta Favorite Day of Week a Monday
+	- Cambia la etiqueta de First name a 'Tu nombre'
+	- Obtén el valor del atributo 'name' del campo Favorite Day of The Week
+	- Escoge la opción Female de la pregunta de género.
+	- Encuentra la primera form del documento y pon el atributo name = personal_info
+	- Encuentra la primera form del documento y pon el atributo name = job_info
+	- Agrega un título h1 a cada una de las formas que diga 'Entrevista personal', 'Entrevista de trabajo' respectivamente
+	- Agrega un título a la pregunta Male/Female 'Gender'
+	- Agrega una pregunta Email: con un input de tipo texto después de last name
+	- Agrega la clase form a ambas formas
+
+
+
+## Eventos con Jquery
+
+- Mostrar con console.log el valor de un option cada vez que un usuario selecciones un option nuevo de un elemento select.
+
+- Hacer que un link no salga de la página al hacer click, pero mostrar el valor de la página referida con console.log
+
+- Hacer que un formulario no se envíe al hacer click en "enviar", en lugar de eso mostrar un texto en la página que el formulario fue enviado.
+ 
 </section>
