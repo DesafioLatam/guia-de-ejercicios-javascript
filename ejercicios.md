@@ -133,7 +133,6 @@ Diamante:
 
 - Crear una función autoejecutable que muestre "muuu" en pantalla
 
-
 ## Array
  
 - Mostrar todos los elementos dentro de un array ingresado por el usuario.
@@ -200,3 +199,16 @@ Diamante:
 	| **2** | **5** | **8** |
 	| **3** | **6** | **9** |
 
+## Funciones y arreglos
+
+- Crear una función que reciba un arreglo como parámetro y devuelva una copia del arreglo
+
+- Crear una función que devuelva el promedio de un arreglo, en caso de que el arreglo esté vacío debe devolver cero.
+
+## Objetos
+
+- Crear un objeto literal persona con nombre y edad y una método que determine si es mayor de edad o no.
+
+- Crear una función constructora que permita crear objetos personas pasandole solo un nombre y edad, agregar el método 
+
+</section>
