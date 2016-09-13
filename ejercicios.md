@@ -20,7 +20,7 @@
 
 - Crear un programa que determine si un número introducido en un popup es divisible por 11 y 5 o no, mostrar el resultado con console.log
 
-- Crear un programa que encuentre que le pida al usuario dos números en un popup y luego muestre en un alerta el número mayor.
+- Crear un programa  que le pida al usuario dos números en un Prompt y luego muestre en un alerta el número mayor.
 
 - Crear un programa que le pida al usuario primero un  números al usuario a través de un prompt y luego un segundo número para luego mostar en un alerta el número mayor, esta vez realizar el ejercicio ocupando un if ternario.
 
@@ -38,19 +38,19 @@
 
 ### While
 
-- Mostrar todos los números de 1 a n aumentando de 1 en 1 donde n lo ingresa el usuario en un popup
+- Mostrar todos los números de 1 a n aumentando de 1 en 1 donde n lo ingresa el usuario en un prompt.
 
-- Mostrar todos los números de 1 a N aumentando de 2 en 2 donde n lo ingresa el usuario en un popup
+- Mostrar todos los números de 1 a N aumentando de 2 en 2 donde n lo ingresa el usuario en un prompt.
 
-- Mostrar todos los números de N a 1 disminuyendo de 1 en 1 donde n lo ingresa el usuario en un popup
+- Mostrar todos los números de N a 1 disminuyendo de 1 en 1 donde n lo ingresa el usuario en un prompt.
 
-- Escribir utilizando console.log la tabla del 9
+- Escribir utilizando console.log la tabla del 9 hasta 9x10.
 
-- Pedir al usuario que ingrese un número en un popup, hacer la suma de todos los dígitos, validar que el número ingresado no contenga letas.
+- Pedir al usuario que ingrese un número en un prompt, hacer la suma de todos los dígitos, validar que el número ingresado no contenga letas.
 
 - Realizar la suma de todos los números pares entre N y M donde N y M los ingresa un usuario.
 
-- Realizar la sumatorio de los primeros N números, donde N es ingresado por el usuario.
+- Realizar la sumatoria de los primeros N números, donde N es ingresado por el usuario.
 
 - Realizar el factorial de los primeros N números.
 
@@ -69,7 +69,7 @@
 
 ## Patrones con Loop anidados 
 
-Dibujar los siguientes patrones ocupando `document.write`, para rellenar los espacios vacíos se imprimer un espacio vacío.
+Dibujar los siguientes patrones ocupando `document.write`, para rellenar los espacios vacíos se debe imprimir un espacio vacío.
 
 Cuadrado lleno:
 
@@ -207,18 +207,18 @@ Diamante:
 
 ## Matrices
 
-- Recorrer un arreglo de arreglos para mostrarlo como una matirz, ejemplo [[1,1],[2,2]] se mostraría de la siguiente forma:
+- Recorrer un arreglo de arreglos para mostrarlo como una matriz, ejemplo [[1,1],[2,2]] se mostraría de la siguiente forma:
 
 | 1  | 1  |
 |----|----|
 | 2  |  2 |
 
 
-- Sumar [[1,1],[2,2]] con [[3,1],[3,2]]
+- Sumar [[1,1],[2,2]] con [[3,1],[3,2]].
 
-- Contar la cantiad de elementos dentro de una matriz.
+- Contar la cantidad de elementos dentro de una matriz.
 
-- Multiplicar una matriz por un escalar, si la matriz inicial es [[1,2,3],[4,5,6]], al multiplicarla por dos deberíamos obtener [[2,4,6],[8,10,12]]
+- Multiplicar una matriz por un escalar, si la matriz inicial es [[1,2,3],[4,5,6]], al multiplicarla por dos deberíamos obtener [[2,4,6],[8,10,12]].
 
 - Encontrar el número mayor en una matriz.
 
@@ -242,7 +242,7 @@ Diamante:
 
 ## Funciones y arreglos
 
-- Crear una función que reciba un arreglo como parámetro y devuelva una copia del arreglo
+- Crear una función que reciba un arreglo como parámetro y devuelva una copia del arreglo.
 
 - Crear una función que devuelva el promedio de un arreglo, en caso de que el arreglo esté vacío debe devolver cero.
 
@@ -253,14 +253,14 @@ Diamante:
 - Personas
 	- Crear un objeto literal persona con nombre y edad y una método que determine si es mayor de edad o no.
 	
-	- Crear una función constructora que permita crear objetos personas pasandole solo un nombre y edad, agregar el método 
+	- Crear una función constructora que permita crear objetos del tipo personas pasándole solo un nombre y edad, agregar el método.
 	
 	- Crear un array que contenga varios objetos persona
 	
 	- Crear una función que reciba el array y devuelva la edad promedio del grupo de personas.
  
 - Teléfono
-	- Crear una función constructora que devuelva objetos del tipo teléfono, como argumento debe recibir un número de telefono, el objeto creado tiene el número de llamadas que debe ser inicializado en cero y un método llamar que debe aumentar el número de llamados en uno
+	- Crear una función constructora que devuelva objetos del tipo teléfono, como argumento debe recibir un número de teléfono, el objeto creado tiene el número de llamadas que debe ser inicializado en cero y un método llamar que debe aumentar el número de llamados en uno.
 
 ## DOM
 
@@ -272,5 +272,6 @@ Diamante:
 
 - Utilizando la instrucción setInterval mostrar la hora exacta y actualizarla cada segundo.
 
+## JQuery
 
 </section>
