@@ -24,6 +24,8 @@
 
 - Crear un programa que encuentre que le pida al usuario dos números en un popup y luego muestre en un alerta el número mayor.
 
+- Crear un programa que encuentre que le pida al usuario dos números en un popup y luego muestre en un alerta el número mayor, esta vez realizar el ejercicio ocupando un if ternario.
+
 - Crear un programa que determine si un string introducido por un usuario empieza con un número o con una letra.
 
 - Crear un programa donde se introduzcan los tres ángulos internos de un triángulo y se determine si el tríangulo es válido o no.
@@ -127,6 +129,14 @@ Diamante:
 
 - Crear una función que reciba un valor cualquiera y lo muestre ocupando console.log(), llamar a la función pasando el valor 5
 
+- La siguiente función devuelve undefined en lugar de la multiplicación, se pide arreglarla
+  
+  ~~~js
+	function multiply(a, b){
+	  a * b
+	}
+   ~~~
+
 - Crear una función que reciba dos valores y devuelva la suma de ellos.
 
 - Crear una función que reciba un número entero y muestre un error si el tipo de dato pasado es de otro tipo.
@@ -134,16 +144,26 @@ Diamante:
 - Crear una función autoejecutable que muestre "muuu" en pantalla
 
 ## Array
- 
-- Mostrar todos los elementos dentro de un array ingresado por el usuario.
 
-- Mostrar todos los elementos dentro de un array sumándole uno a cada uno.
+- Dado el array = [1,2,3,4,5,6]
 
-- Generar una copia de un array pero con todos los elementos incrementado en 1.
+	- Iterar por todos los elementos dentro de un array utilizando while y mostrarlos en pantalla.
+	
+	- Iterar por todos los elementos dentro de un array utilizando for y mostrarlos en pantalla.
+	
+	- Iterar por todos los elementos dentro de un array utilizando .forEach y mostrarlos en pantalla.
+	
+	- Mostrar todos los elementos dentro de un array sumándole uno a cada uno.
+	
+	- Generar una copia de un array pero con todos los elementos incrementado en 1.
 
-- Generar 10 números al azar y guardarlos en un array.
+	- Calcular el promedio
 
-- Dado un array con 10 colores determinar si un color introducido por el usuario se encuentra dentro del array o no.
+- Crear un array vacío, luego generar 20 números al azar y guardarlos en un array.
+
+- Crear un array vacío, luego generar N números al azar y guardarlos en un array, N es introducido por el usuario a través de un propmpt.
+
+- Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "café", "rosa"] determinar si un color introducido por el usuario a través de un prompt se encuentra dentro del array o no.
 
 ## String y arrays
 
@@ -205,10 +225,24 @@ Diamante:
 
 - Crear una función que devuelva el promedio de un arreglo, en caso de que el arreglo esté vacío debe devolver cero.
 
+- Crear una función que calcule el promedio dentro de un arreglo pero dentro de un rango, esta función recibe el arreglo, un punto de partida y uno de termino y devuelve el promedio de los valores dentro del rango especificado.
+
 ## Objetos
 
 - Crear un objeto literal persona con nombre y edad y una método que determine si es mayor de edad o no.
 
 - Crear una función constructora que permita crear objetos personas pasandole solo un nombre y edad, agregar el método 
 
+- Crear un array que contenga varios objetos persona
+
+- Crear una función que reciba el array y devuelva la edad promedio del grupo de personas.
+ 
+## DOM
+
+- Utilizando getElementById y innerHTML transformar el emoticon en un smiley
+
+	~~~html
+	<p id="demo"> :( </p>
+	~~~
+	
 </section>
