@@ -241,7 +241,7 @@ Diamante:
 	console.log(aplanar(arr)); // [1,2,3,4,5,6,7,8,9]
 	~~~
 
-- Crear una función que divida un arreglo en dos partes con la misma cantidad de elementos (o una diferencía de máximo un elemento) y devuelva un arreglo que contenga al grupo1 y al grupo2
+- Crear una función que divida un arreglo en dos partes con la misma cantidad de elementos (o una diferencia de máximo un elemento) y devuelva un arreglo que contenga al grupo1 y al grupo2
 
 	~~~javascript
 	var arr = [1,2,3,4,5,6,7,8];
