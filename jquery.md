@@ -2,7 +2,7 @@
 ## Pregunta 1
 El siguiente código debería reemplazar un elemento de la página, pero por algún motivo (o varios) no funciona, hay que arreglarlo.
 
-´´´html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,18 +16,18 @@ El siguiente código debería reemplazar un elemento de la página, pero por alg
 </body>
 </html>
 
-´´´
+```
 
-´´´javascript
+```javascript
 $(".p1").html("Nuevo parrafo")
-´´´
+```
 
 HINT: utilizar el inspector de elementos y la consola de javascript del navegador.
 
 ## Pregunta 2
 
 Se tiene el siguiente HTML 
-´´´html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,7 +57,7 @@ This is a div element.
 
 </body>
 </html>
-´´´
+```
 
 Se pide implementar una solución, que al hacer click en el div este cambio de color (El cambio de color debe ser aleatorio), pero esto no debe pasar cuando se haga click en los elementos que están dentro del div. 
 
@@ -66,7 +66,7 @@ Hint: Bubbling
 ## Pregunta 3
 Se tiene la siguiente página web:
 
-´´´html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,7 +84,7 @@ Se tiene la siguiente página web:
     </ul>
 </body>
 </html>
-´´´
+```
 
 * Se pide agregar un botón a la página que al presionarlo agregue el elemento 6, luego el 7 y así sucesivamente.
 
