@@ -4,27 +4,25 @@
 
 <section>
 
-## Operaciones básicas, popups y alertas
+## Operaciones básicas, Prompt y Alert
 
-- Escribir un programa que arroje un popup donde el usuario ingresa un número, luego muestra otro popup pidiendo otro, finalmente el programa muestra una alerta con los resultados.
+- Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra una alerta con los resultados.
 
-- Crear un programa donde el usuario ingrese en un popup la temeperatura en celcius y el programa muestre en una alerta la temperatura en fahrenheit.
+- Crear un programa donde el usuario ingrese en un prompt la temeperatura en celcius y el programa muestre en una alerta la temperatura en fahrenheit.
 
-- Pedir un número a un usuario y divirlo por 10, ejemplo: 5 / 10  igual 0.5
+- Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10  igual 0.5
 
 ## If and else
 
-- Crear un menú con cuatro opciones, mostrar cual fue la opción que escogió el usuario.
+- Crear un programa que determine si un número introducido en un Prompt es par o no, la respuesta será mostrada en una alerta.
 
-- Crear un programa que determine si un número introducido en un popup es par o no.
+- Crear un programa que determine si un número introducido en un Prompt es divisible por 5 o no, mostrar el resultado con console.log
 
-- Crear un programa que determine si un número introducido en un popup es divisible por 5 o no.
-
-- Crear un programa que determine si un número introducido en un popup es divisible por 11 y 5 o no.
+- Crear un programa que determine si un número introducido en un popup es divisible por 11 y 5 o no, mostrar el resultado con console.log
 
 - Crear un programa que encuentre que le pida al usuario dos números en un popup y luego muestre en un alerta el número mayor.
 
-- Crear un programa que encuentre que le pida al usuario dos números en un popup y luego muestre en un alerta el número mayor, esta vez realizar el ejercicio ocupando un if ternario.
+- Crear un programa que le pida al usuario primero un  números al usuario a través de un prompt y luego un segundo número para luego mostar en un alerta el número mayor, esta vez realizar el ejercicio ocupando un if ternario.
 
 - Crear un programa que determine si un string introducido por un usuario empieza con un número o con una letra.
 
@@ -43,7 +41,10 @@
 - Mostrar todos los números de 1 a n aumentando de 1 en 1 donde n lo ingresa el usuario en un popup
 
 - Mostrar todos los números de 1 a N aumentando de 2 en 2 donde n lo ingresa el usuario en un popup
+
 - Mostrar todos los números de N a 1 disminuyendo de 1 en 1 donde n lo ingresa el usuario en un popup
+
+- Escribir utilizando console.log la tabla del 9
 
 - Pedir al usuario que ingrese un número en un popup, hacer la suma de todos los dígitos, validar que el número ingresado no contenga letas.
 
@@ -68,7 +69,7 @@
 
 ## Patrones con Loop anidados 
 
-Dibujar los siguientes patrones, para rellenar los espacios vacíos se imprimer un espacio vacío.
+Dibujar los siguientes patrones ocupando `document.write`, para rellenar los espacios vacíos se imprimer un espacio vacío.
 
 Cuadrado lleno:
 
@@ -78,6 +79,26 @@ Cuadrado lleno:
 *****
 *****</center></pre>
 
+Cuadrado hueco:
+
+<pre><center>*****
+*   *
+*   *
+*   *
+*****</center></pre>
+
+Tablero de Ajedrez:
+
+<pre><center>* * * * * * * *
+ * * * * * * * 
+* * * * * * * *
+ * * * * * * * 
+* * * * * * * *
+ * * * * * * * 
+* * * * * * * *
+ * * * * * * * 
+
+</center></pre>
 Cuadrado hueco:
 
 <pre><center>*****
@@ -229,14 +250,18 @@ Diamante:
 
 ## Objetos
 
-- Crear un objeto literal persona con nombre y edad y una método que determine si es mayor de edad o no.
-
-- Crear una función constructora que permita crear objetos personas pasandole solo un nombre y edad, agregar el método 
-
-- Crear un array que contenga varios objetos persona
-
-- Crear una función que reciba el array y devuelva la edad promedio del grupo de personas.
+- Personas
+	- Crear un objeto literal persona con nombre y edad y una método que determine si es mayor de edad o no.
+	
+	- Crear una función constructora que permita crear objetos personas pasandole solo un nombre y edad, agregar el método 
+	
+	- Crear un array que contenga varios objetos persona
+	
+	- Crear una función que reciba el array y devuelva la edad promedio del grupo de personas.
  
+- Teléfono
+	- Crear una función constructora que devuelva objetos del tipo teléfono, como argumento debe recibir un número de telefono, el objeto creado tiene el número de llamadas que debe ser inicializado en cero y un método llamar que debe aumentar el número de llamados en uno
+
 ## DOM
 
 - Utilizando getElementById y innerHTML transformar el emoticon en un smiley
@@ -244,5 +269,8 @@ Diamante:
 	~~~html
 	<p id="demo"> :( </p>
 	~~~
-	
+
+- Utilizando la instrucción setInterval mostrar la hora exacta y actualizarla cada segundo.
+
+
 </section>
