@@ -61,7 +61,7 @@ This is a div element.
 
 Se pide implementar una solución, que al hacer click en el div este cambio de color (El cambio de color debe ser aleatorio), pero esto no debe pasar cuando se haga click en los elementos que están dentro del div. 
 
-Hint: Bubbling
+Hint: Bubbling & Math.random()
 
 ## Pregunta 3
 Se tiene la siguiente página web:
@@ -106,17 +106,17 @@ Dado el siguiente HTML
 
 Se pide crear las funcionalidades que permitan agrandar el tamaño de los parrafos del documento, cambiar la tipografía y color fondo.
 
-El HTML base lo puedes descargar del siguiente (enlace)[https://github.com/mcantillana/guia-de-ejercicios-javascript/src/html/ejercicio5.html]
+El HTML base lo puedes descargar del siguiente [enlace](src/html/ejercicio5.html)
+
 
 ## Pregunta 6
 Crear un documento HTML y cargar una imágen con la etiqueta img de HTML. Capturar los eventos de tecla para permitir mover la imagen utilizando las flechas de derecha e izquiera (La imagen se deberá poder mover 50px en la dirección respectiva)
 
 
 ## Pregunta 7
-Piedra, papel o tijera 2.0
+**Piedra, papel o tijera 2.0** 
 Se pide resolver el juego piedra papel o tijera utilizando elementos visuales de HTML. Para ello se debe crear un select con las opciones piedra, papel o tijera y un botón que diga Jugar. El juego debe permitir jugar contra la computadora, quien generará su jugada de forma aleatoria.
 Al momento de presionar el botón el programa debe entregar el resultado de quien fue el ganador.
-
 
 ## Pregunta 8
 Utiliza los métodos focus() y blur() para cambiar el color de dos cuadros de texto cuando posicionamos el foco y cuando lo retiramos.
@@ -137,3 +137,10 @@ Selecciona todos los párrafos de un documento que contengan “eu” y ponles u
 ## Pregunta 13
 Realiza un programa en JQuery para que en tu documento aparezcan 8 fotos en orden aleatorio.
 
+## Pregunta 14
+
+Se pide construir la siguiente interfaz, el objetivo es desarrollar las funcionalidades que permita agregar o eliminar elementos, es decir, mover los objetos de izquiera a derecha y viceversa.
+
+![alt text](src/images/ejercicio_14.jpg "Ejercicio 14")
+
+Como base puede tomar el siguiente [HTML](src/html/ejericio14.html).
