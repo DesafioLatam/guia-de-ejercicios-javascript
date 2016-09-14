@@ -1,16 +1,22 @@
 <section class="cover">
 # Guía de ejercicios de javascript
+
+<p class="center"> ©Desafiolatam </p>
+<p class="center"> Versión 1.0 </p>
+
 </section>
 
 <section>
 
-## Operaciones básicas, Prompt y Alert
+## Operaciones básicas, Tipos de datos, Prompt y Alert
 
 - Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra una alerta con el resultado de la suma.
 
 - Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit.
 
 - Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10  igual 0.5
+
+- Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a.
 
 ## If and else
 
@@ -32,8 +38,28 @@
 
 - Determinar si un año dado es bisiesto.
 
-- Escribir un programa JavaScript en el que el programa escoge al azar un entero entre 1 y 10, el usuario , luego a el usuario se le pedirá que introduzca un número en un popup para intentar adivinarlo. Si la entrada del usuario coincide con el número de conjetura, el programa mostrará un mensaje de "buen trabajo" de lo contrario mostrará un mensaje de "No corresponde "
+- Escribir un programa JavaScript en el que el programa escoge al azar un entero entre 1 y 10, el usuario , luego a el usuario se le pedirá que introduzca un número en un popup para intentar adivinarlo. Si la entrada del usuario coincide con el número de conjetura, el programa mostrará un mensaje de "buen trabajo" de lo contrario mostrará un mensaje de "No corresponde"
 
+- El siguiente código tiene un error que se produce en algunos casos especiales, descubrirlo y arreglarlo:
+
+	~~~javascript
+	// Obtener edad
+
+	if(edad < 13) {
+		console.log("Es niño");
+	}if(edad < 18 ){
+	 	console.log("Es adolecente");
+	} else{
+	 	console.log("Es adolecente");
+	}
+	~~~
+
+- Negar las siguientes expresión de forma de mantener la tabla de verdad, crear el programa que muestre el valor de la expresión a medida que se cambia los valores de a y b.
+
+	- !a && !b	
+	- !a || !b	
+
+	
 ## Loops
 
 ### While
@@ -305,6 +331,10 @@ Diamante:
  
 - Teléfono
 	- Crear una función constructora que devuelva objetos del tipo teléfono, como argumento debe recibir un número de teléfono, el objeto creado tiene el número de llamadas que debe ser inicializado en cero y un método llamar que debe aumentar el número de llamados en uno.
+
+- Puntos y líneas
+	- Crear la función constructura punto que recibe un par de coordenadas (x,y) y devuelve un objeto punto en esa posición.
+	- Crear la función constructora recta que recibe como argumento 2 puntos.
 
 ## DOM
 
