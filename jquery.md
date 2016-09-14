@@ -118,7 +118,6 @@ Crear un documento HTML y cargar una imágen con la etiqueta img de HTML. Captur
 Se pide resolver el juego piedra papel o tijera utilizando elementos visuales de HTML. Para ello se debe crear un select con las opciones piedra, papel o tijera y un botón que diga Jugar. El juego debe permitir jugar contra la computadora, quien generará su jugada de forma aleatoria.
 Al momento de presionar el botón el programa debe entregar el resultado de quien fue el ganador.
 
-
 ## Pregunta 8
 Utiliza los métodos focus() y blur() para cambiar el color de dos cuadros de texto cuando posicionamos el foco y cuando lo retiramos.
 
@@ -138,3 +137,10 @@ Selecciona todos los párrafos de un documento que contengan “eu” y ponles u
 ## Pregunta 13
 Realiza un programa en JQuery para que en tu documento aparezcan 8 fotos en orden aleatorio.
 
+## Pregunta 14
+
+Se pide construir la siguiente interfaz, el objetivo es desarrollar las funcionalidades que permita agregar o eliminar elementos, es decir, mover los objetos de izquiera a derecha y viceversa.
+
+![alt text](src/images/ejercicio_14.jpg "Ejercicio 14")
+
+Como base puede tomar el siguiente [HTML](src/html/ejericio14.html).
